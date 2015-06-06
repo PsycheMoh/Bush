@@ -291,7 +291,7 @@ echo "--------------------------------------------------------------------------
 	usr=`echo $info | cut -d'|' -f1`
 	pass=`echo $info | cut -d'|' -f2`
 	echo "-----------------------------------------------------------"
-	echo "-        You may need help so pls type \"help_pls\        -"
+	echo "-        You may need help so pls type \"help_pls\"        -"
 	echo "-----------------------------------------------------------"
 	while true
         do
