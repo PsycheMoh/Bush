@@ -250,7 +250,7 @@ anti(){
 }
 
 rkhunter(){
-	if []
+	if [ -f /etc/rkhunter.conf ]
 	then
 	echo "Rootkit hunter is already installed"
 	else
